@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
 :root {
   --rockwell-red: 205,22,63;
   --cool-gray: 225,235,244;
   --garnet: 141 0 52;
+  font-family: 'Barlow', sans-serif;
 }
 
 body {
