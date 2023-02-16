@@ -34,8 +34,15 @@ body {
 .form {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
   background-color: rgb(var(--cool-gray));
+}
+
+.form-controls {
+  background-color: white;
+  padding: 15vh 0px;
+  margin: 0px;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
 button {
@@ -43,7 +50,6 @@ button {
   border: 0;
   border-radius: .75em;
   color: white;
-  margin: 30px;
   padding: 10px 50px;
   text-align: center;
   font-size: large;
