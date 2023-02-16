@@ -31,6 +31,13 @@ body {
   height: auto;
 }
 
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(var(--cool-gray));
+}
+
 button {
   background-color: rgb(var(--rockwell-red));
   border: 0;
