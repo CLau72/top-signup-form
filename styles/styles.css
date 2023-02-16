@@ -1,0 +1,27 @@
+:root {
+  --rockwell-red: rgba(205,22,63,0.3);
+}
+
+body {
+  display: flex;
+}
+
+.side-image {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 40vw;
+  background-image: url("../images/clocktower.jpg");
+}
+
+.logo {
+  margin-top: 14rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--rockwell-red) ;
+}
+
+.logo img {
+  width: 300px;
+  height: auto;
+}
